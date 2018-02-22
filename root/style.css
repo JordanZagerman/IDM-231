@@ -1,0 +1,106 @@
+/*                      <-. (`-')_ (`-')      (`-').-> 
+   <-.          .->      \( OO) )( OO).->   ( OO)_   
+(`-')-----.(`-')----. ,--./ ,--/ /    '._  (_)--\_)  
+(OO|(_\---'( OO).-.  '|   \ |  | |'--...__)/    _ /  
+ / |  '--. ( _) | |  ||  . '|  |)`--.  .--'\_..`--.  
+ \_)  .--'  \|  |)|  ||  |\    |    |  |   .-._)   \ 
+  `|  |_)    '  '-'  '|  | \   |    |  |   \       / 
+   `--'       `-----' `--'  `--'    `--'    `-----'  */
+
+/*Use for Titles*/
+@font-face {
+    font-family: 'modern_typewriterregular';
+    src: url('fonts/modern_typewriter/modern_typewriter-webfont.woff2') format('woff2'),
+         url('fonts/modern_typewriter/modern_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Use for sub titles and buttons*/
+@font-face {
+    font-family: 'tox_typewriterregular';
+    src: url('fonts/tox_typewriter/tox_typewriter-webfont.woff2') format('woff2'),
+         url('fonts/tox_typewriter/tox_typewriter-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Use for actual text*/
+@font-face {
+    font-family: 'typoslab_irregular_demoRg';
+    src: url('fonts/typoslab/typoslab_irregular_demo-webfont.woff2') format('woff2'),
+         url('fonts/typoslab/typoslab_irregular_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+ /$$      /$$           /$$          
+| $$$    /$$$          |__/          
+| $$$$  /$$$$  /$$$$$$  /$$ /$$$$$$$ 
+| $$ $$/$$ $$ |____  $$| $$| $$__  $$
+| $$  $$$| $$  /$$$$$$$| $$| $$  \ $$
+| $$\  $ | $$ /$$__  $$| $$| $$  | $$
+| $$ \/  | $$|  $$$$$$$| $$| $$  | $$
+|__/     |__/ \_______/|__/|__/  |__/
+                                     
+*/
+
+/*essentially just the background*/
+body {
+	background-color: black;
+}
+
+/*
+   _____      _     _ 
+  / ____|    (_)   | |
+ | |  __ _ __ _  __| |
+ | | |_ | '__| |/ _` |
+ | |__| | |  | | (_| |
+  \_____|_|  |_|\__,_|
+                      
+                      
+*/
+
+/*everything on top of the background*/
+.grid {
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	/* Top Bottom Left Right*/
+	padding: 10% 10% 10% 10%;
+	background-color: white;
+}
+
+/*Main Title: Which Conspiracy Theory are you?*/
+.grid h1 {
+	font-family: 'modern_typewriterregular';
+	font-size: 300%;
+	text-align: center;
+}
+
+.grid #question {
+    font-family: 'tox_typewriterregular';
+    font-size: 150%;
+    }
+
+/*
+.-. .-')               .-') _    .-') _                     .-') _   .-')    
+\  ( OO )             (  OO) )  (  OO) )                   ( OO ) ) ( OO ).  
+ ;-----.\  ,--. ,--.  /     '._ /     '._  .-'),-----. ,--./ ,--,' (_)---\_) 
+ | .-.  |  |  | |  |  |'--...__)|'--...__)( OO'  .-.  '|   \ |  |\ /    _ |  
+ | '-' /_) |  | | .-')'--.  .--''--.  .--'/   |  | |  ||    \|  | )\  :` `.  
+ | .-. `.  |  |_|( OO )  |  |      |  |   \_) |  |\|  ||  .     |/  '..`''.) 
+ | |  \  | |  | | `-' /  |  |      |  |     \ |  | |  ||  |\    |  .-._)   \ 
+ | '--'  /('  '-'(_.-'   |  |      |  |      `'  '-'  '|  | \   |  \       / 
+ `------'   `-----'      `--'      `--'        `-----' `--'  `--'   `-----'  
+*/
+
+.confidentialSecretButtons {
+	margin: 0 auto;
+
+}
+
+footer{
+	    font-family: 'typoslab_irregular_demoRg';
+}
