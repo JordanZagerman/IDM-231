@@ -83,7 +83,57 @@ body {
     font-family: 'tox_typewriterregular';
     font-size: 150%;
     }
+/*
+ ________     ,-----.    .-------.    ,---.    ,---.   .-'''-.  
+|        |  .'  .-,  '.  |  _ _   \   |    \  /    |  / _     \ 
+|   .----' / ,-.|  \ _ \ | ( ' )  |   |  ,  \/  ,  | (`' )/`--' 
+|  _|____ ;  \  '_ /  | :|(_ o _) /   |  |\_   /|  |(_ o _).    
+|_( )_   ||  _`,/ \ _/  || (_,_).' __ |  _( )_/ |  | (_,_). '.  
+(_ o._)__|: (  '\_/ \   ;|  |\ \  |  || (_ o _) |  |.---.  \  : 
+|(_,_)     \ `"/  \  ) / |  | \ `'   /|  (_,_)  |  |\    `-'  | 
+|   |       '. \_/``".'  |  |  \    / |  |      |  | \       /  
+'---'         '-----'    ''-'   `'-'  '--'      '--'  `-...-'                                                                   
+*/
+input[type="text"] {
+    font-family: 'typoslab_irregular_demoRg';
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
 
+}
+
+input[type="date"] {
+    font-family: 'typoslab_irregular_demoRg';
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+input[type="submit"] {
+    font-family: 'typoslab_irregular_demoRg';
+    width: 40%;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+#anonymousButton {
+    font-family: 'typoslab_irregular_demoRg';
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+}
 /*
 .-. .-')               .-') _    .-') _                     .-') _   .-')    
 \  ( OO )             (  OO) )  (  OO) )                   ( OO ) ) ( OO ).  
@@ -101,11 +151,15 @@ body {
 
 }
 
-.hiddenbutton {
-
+.hiddenButton {
+    background-color: #FFFFFF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
   
-}
-
-footer{
-	    font-family: 'typoslab_irregular_demoRg';
 }

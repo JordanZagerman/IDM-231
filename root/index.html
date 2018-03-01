@@ -13,14 +13,31 @@
 			<div>
 			<form id="form">
 		      <p>
-		        <input id="name-input" type="text" placeholder="First Name">
+		        <input id="name-input" class="specificOptionalQuestion" type="text" placeholder="First Name">
+		      </p>
+		      <p>
+		        <input id="zipCodeInput" class="specificOptionalQuestion" type="text" placeholder="Zip Code">
+		      </p>
+		      <p>
+		        <input id="high-school-input" class="specificOptionalQuestion" type="text" placeholder="High school graduation year">
 		      </p>
 		      <p>
 		        <input id="date-input" type="date">
 		      </p>
 		      <p>
+		        <input id="pharmacy-input" class="specificOptionalQuestion" type="text" placeholder="Name of local pharmacy">
+		      </p>
+		      <p>
+		        <input id="childrenInput" class="specificOptionalQuestion" type="text" placeholder="Number of children claimed on your taxes">
+		      </p>
+		      <p>
+		        <input id="bedtimeInput" class="specificOptionalQuestion" type="text" placeholder="Bedtime on a normal Tuesday">
+		      </p>
+		      <p>
 		        <input id="submitButton" type="submit">
 		      </p>
+			<button id="anonymousButton" type="submit" value="HTML">Anonymously Submit</button>
+
 		    </form>
 		    </div>
 
@@ -55,10 +72,6 @@
 				<!-- Unsure -->
 				<button id="button14" class="hiddenButton"><span id="choice14"></span></button>
 			</div>
-			<footer>
-				<!-- Will indicate number of questions answered and left for anyone that does not know about the secret buttons, yah dig -->
-				<p id="progress">Question x of y.</p> 
-			</footer>
 		</div>
 	</div>
   <script src="js/main.js"></script>
