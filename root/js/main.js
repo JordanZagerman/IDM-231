@@ -1,3 +1,16 @@
+// Sound Section
+
+var typewriterKeyDown;
+var typewriterKeyUp;
+var typewriterKeyBackspaceDown;
+var typewriterKeySpacebarDown;
+
+function preload() {
+  typewriterKeyDown = loadSound("typrwriter-down.wav");
+}
+
+// Form Section Start
+
 var formEl = document.getElementById("form");
 var nameInputEl = document.getElementById("name-input");
 var dateInputEl = document.getElementById("date-input");
