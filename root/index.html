@@ -9,41 +9,53 @@
 </head>
 <body>
 	<!-- Transition Script -->
+
   <script src="js/page-transition.js"></script>
+
 	<div class="grid">
 		<div id="zodiac">
 			<h1>Which Conspiracy Theory Are You?</h1>
-
-			<p id="question"></p>
-			<div>
+			
 			<form id="form">
+				<!-- Name Section -->
 		      <p>
 		        <input id="name-input" class="specificOptionalQuestion" type="text" placeholder="First Name">
 		      </p>
+
+		      <!-- Zip Code Section -->
 		      <p>
 		        <input id="zipCodeInput" class="specificOptionalQuestion" type="text" placeholder="Zip Code">
 		      </p>
+
+		      <!-- high School Section -->
 		      <p>
 		        <input id="high-school-input" class="specificOptionalQuestion" type="text" placeholder="High school graduation year">
 		      </p>
+
+		      <!-- Pharmacy Section -->
 		      <p>
-		        <input id="pharmacy-input" class="specificOptionalQuestion" type="text" placeholder="Name of local pharmacy">
+		        <input id="pharmacy-input" class="specificOptionalQuestion" type="text" placeholder="Name of nearest pharmacy">
 		      </p>
+
+		      <!-- Children on Taxes Section -->
 		      <p>
 		        <input id="childrenInput" class="specificOptionalQuestion" type="text" placeholder="Number of children claimed on your taxes">
 		      </p>
+
+		      <!-- Bedtime Section -->
 		      <p>
 		        <input id="bedtimeInput" class="specificOptionalQuestion" type="text" placeholder="Bedtime on a normal Tuesday">
 		      </p>
 		      <p>
+
 		      	<!-- Important date input -->
-		        <input id="date-input" type="date">
-		      </p>		      
+		        <input id="date-input" type="date" placeholder="Birthday">
+		      </p>
+
+		      <!-- Submit Button -->
 		      <p>
 		        <input id="submitButton" type="submit">
 		      </p>
-
-			<button id="anonymousButton" type="submit" value="HTML">Anonymously Submit</button>
 
 		    </form>
 		    </div>
@@ -80,7 +92,42 @@
 				<button id="button14" class="hiddenButton"><span id="choice14"></span></button>
 			</div>
 		</div>
+
+		<!-- Rectangles covering first name question -->
+		<div id="rectangleFirstNameLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleFirstNameRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering Zip code -->
+
+		<div id="rectangleZipCodeLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleZipCodeRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering high School -->
+
+		<div id="rectangleHighSchoolLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleHighSchoolRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering Pharmacy -->
+
+		<div id="rectanglePharmacyLeft" class="rectangleBlackOut"></div>
+		<div id="rectanglePharmacyRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering Children -->
+
+		<div id="rectangleChildrenLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleChildrenRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering Bedtime -->
+
+		<div id="rectangleBedtimeLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleBedtimeRight" class="rectangleBlackOut"></div>
+
+		<!-- Rectangles Covering Birthday -->
+
+		<div id="rectangleBirthdayLeft" class="rectangleBlackOut"></div>
+		<div id="rectangleBirthdayRight" class="rectangleBlackOut"></div>
+
 	</div>
-  <script src="js/main.js"></script>
+		  <script src="js/main.js"></script>
 </body>
 </html>
