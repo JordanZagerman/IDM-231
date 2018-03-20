@@ -8,6 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	<!-- Transition Script -->
+  <script src="js/page-transition.js"></script>
 	<div class="grid">
 		<div id="zodiac">
 			<h1>Which Conspiracy Theory Are You?</h1>
@@ -25,9 +27,6 @@
 		        <input id="high-school-input" class="specificOptionalQuestion" type="text" placeholder="High school graduation year">
 		      </p>
 		      <p>
-		        <input id="date-input" type="date">
-		      </p>
-		      <p>
 		        <input id="pharmacy-input" class="specificOptionalQuestion" type="text" placeholder="Name of local pharmacy">
 		      </p>
 		      <p>
@@ -37,8 +36,13 @@
 		        <input id="bedtimeInput" class="specificOptionalQuestion" type="text" placeholder="Bedtime on a normal Tuesday">
 		      </p>
 		      <p>
+		      	<!-- Important date input -->
+		        <input id="date-input" type="date">
+		      </p>		      
+		      <p>
 		        <input id="submitButton" type="submit">
 		      </p>
+
 			<button id="anonymousButton" type="submit" value="HTML">Anonymously Submit</button>
 
 		    </form>
