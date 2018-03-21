@@ -1,12 +1,13 @@
 // Sound Section
 
-var typewriterKeyDown;
-var typewriterKeyUp;
-var typewriterKeyBackspaceDown;
-var typewriterKeySpacebarDown;
+var audio = new Audio("libraries/sounds/typewriter-down.wav");
+    
+function playAudio() {
+    audio.play();
+}   
 
-function preload() {
-  typewriterKeyDown = loadSound("typrwriter-down.wav");
+function keyPressed(){
+  audio.play();
 }
 
 // Form Section Start
@@ -137,11 +138,3 @@ formEl.addEventListener('submit',formHandler);
 formEl.addEventListener('change', formHandler);
 
 // fade to Black When button is pressed
-
-// 
-
-    // $(document).ready(function(){
-    //   $("button").click(function(){
-    //     $("div").animate({opacity:0}, 3000);
-    //     });
-    // });
