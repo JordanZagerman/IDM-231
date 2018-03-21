@@ -450,10 +450,36 @@ header {
     position: relative;
     width: 100%;
     height: 90vh;
-    background-color: black;
+    background-color: transparent;
     margin-bottom: 0px;
     overflow: hidden;
 }
+/*Acquarius Pictures*/
+.header-bg-acquarius {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Virgo-Moon-Landing/Moon-Landing-Parallax.png''./Images/Aquarius-The-Philadelphia-Experiement/Philadelphia-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageAcquarius {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aquarius-The-Philadelphia-Experiement/Philadelphia-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*Virgo Pictures*/
 
 .header-bg-virgo {
     /*Keeps the image in place*/
@@ -468,21 +494,7 @@ header {
     background-attachment: fixed;
 }
 
-/*Articles/Paragraphs*/
-/*.transparency {
-    width: 800px;
-}*/
-
-#content {
-    margin: auto;
-    width: 800px;
-    padding: 5px 10px 15px 15px;
-    background-color: white;
-    text-align: center;
-    border: #000000 1px solid
-}
-
-.paperPage {
+.paperPageVirgo {
     position: absolute;
     /*accross the whole screen*/
     width: 100%;
@@ -493,6 +505,21 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
+/*Articles/Paragraphs*/
+/*.transparency {
+    width: 800px;
+}*/
+
+#content {
+    margin: auto;
+    width: 800px;
+    padding: 5px 10px 20px 20px;
+    background-color: white;
+    text-align: center;
+    border: #000000 1px solid
+}
+
+
 
 p {
     font-family: 'atypewriterformemedium';
