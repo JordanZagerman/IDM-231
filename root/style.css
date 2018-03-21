@@ -505,8 +505,242 @@ header {
     background-position: center;
     background-attachment: fixed;
 }
-/*Virgo Pictures*/
 
+/*Cancer Pictures*/
+.header-bg-cancer {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageCancer {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Capricorn Pictures*/
+.header-bg-capricorn {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageCapricorn {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Gemini Pictures*/
+.header-bg-gemini {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageGemini {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Leo Pictures*/
+.header-bg-leo {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageLeo {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Libra Pictures*/
+.header-bg-libra {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageLibra {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Pisces Pictures*/
+.header-bg-pisces {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPagePisces {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Sagittarius Pictures*/
+.header-bg-sagittarius {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageSagittarius {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Scorpio Pictures*/
+.header-bg-scorpio {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageScorpio {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Taurus Pictures*/
+.header-bg-taurus {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageTaurus {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Virgo Pictures*/
 .header-bg-virgo {
     /*Keeps the image in place*/
     position: absolute;
