@@ -75,15 +75,30 @@ body {
 }
 
 /*Main Title: Which Conspiracy Theory are you?*/
-.grid h1 {
+h1 {
 	font-family: 'modern_typewriterregular';
-	font-size: 300%;
+	font-size: 36pt;
 	text-align: center;
     /*Keeps the height of the page consistant for rectangle effects
     */
     overflow: hidden;
     white-space: nowrap;
-    padding-bottom: 20px   ;
+    padding-bottom: 20px;
+}
+
+/*Home Header*/
+#homeHeader {
+    font-family: 'modern_typewriterregular';
+    font-size: 36pt;
+    font-weight: bold;
+    display: block;
+    width: 1000px;
+    margin-bottom: 10px;
+    margin-left: 800px;
+    margin-right: none;
+    background-color: #FFFFFF;
+    position: fixed;
+    left: -500px;
 }
 
 
@@ -124,7 +139,7 @@ input[type=text]:focus {
 }
 
 input[type=text]:hover {
-    /*gets rid of mac blue select ring*/
+
 
 }
 
@@ -191,7 +206,7 @@ input[type=text]:hover {
 
 #rectangleHighSchoolRight {
     width:510px;
-    left: 1280px;
+    left: 1278px;
     top: 320px;
 }
 
@@ -245,38 +260,89 @@ input[type=text]:hover {
     left: -500px;
 }
 
-/*Date Input*/
+#rectangleBedtimeRight {
+    width:800px;
+    left: 835px;
+    top: 590px;
+}
 
-#date-input {
+#rectangleBedtimeLeft {
+    width:315px;
+    left: 0px;
+    top: 590px;
+}
+
+/*Date Input*/
+#homeBirthdayInformer {
+    font-family: 'tox_typewriterregular';
+    font-size: 30pt;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #FFFFFF;
     position: fixed;
-    top: 670px;
+    top: 655px;
+    left: 200px;
+    right: 800px;
+    outline: none;
+    width: 300px;
+}
+
+input[type="date"] {
+    font-family: 'tox_typewriterregular';
+    font-size: 30pt;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 0px;
+    background-color: #FFFFFF;
+    color: #757575;
+    position: fixed;
+    top: 680px;
+    /*Somehow the only way this would stay in place*/
+    left: 400px;
+    right: 600px;
+    outline: none;
+    width: 300px;
+}
+
+#rectangleBirthdayRight {
+    width:800px;
+    left: 920px;
+    top: 680px;
+}
+
+#rectangleBirthdayMiddle {
+    width: 240px;
+    left: 460px;
+    top: 680px;
+}
+
+#rectangleBirthdayLeft {
+    width:195px;
+    left: 0px;
+    top: 680px;
+}
+
+input[type="submit"] {
+    font-family: 'typoslab_irregular_demoRg';
+    width: 400px;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 400px;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    position: fixed;
+    left: 100px;
+    right: 800px;
 }
 
 #submitButton {
     position: fixed;
     top: 700px;
-}
-input[type="date"] {
-    font-family: 'tox_typewriterregular';
-    font-size: 30pt;
-    font-weight: bold;
-    width: 800px;
-    display: block;
-    margin-bottom: 10px;
-    margin-left: none;
-    margin-right: none;
-    background-color: #FFFFFF;
-    position: fixed;
-}
-
-input[type="submit"] {
-    font-family: 'typoslab_irregular_demoRg';
-    width: 40%;
-    display: block;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #FFFFFF;
 }
 
 #submitButton {
@@ -300,6 +366,37 @@ input[type="submit"] {
     margin-right: auto;
     margin-bottom: 10px;
     background-color: #FFFFFF;
+}
+
+#rectangleBottom1 {
+    width:1995px;
+    left: 0px;
+    top: 770px;
+}
+#rectangleBottom2 {
+    width:1995px;
+    left: 0px;
+    top: 860px;
+}
+#rectangleBottom3 {
+    width:1995px;
+    left: 0px;
+    top: 950px;
+}
+#rectangleBottom4 {
+    width:1995px;
+    left: 0px;
+    top: 1040px;
+}
+#rectangleBottom5 {
+    width:1995px;
+    left: 0px;
+    top: 1130px;
+}
+#rectangleBottom6 {
+    width:1995px;
+    left: 0px;
+    top: 1220px;
 }
 /*
 .-. .-')               .-') _    .-') _                     .-') _   .-')    
@@ -329,4 +426,27 @@ input[type="submit"] {
     margin: 4px 2px;
     cursor: pointer;
   
+}
+
+/*Parallax*/
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    margin-bottom: 1000px;
+    overflow: hidden;
+}
+
+.header-bg-virgo {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Virgo-Moon-Landing/Moon-Landing-Parallax.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
