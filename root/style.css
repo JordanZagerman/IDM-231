@@ -178,7 +178,7 @@ input[type=text]:hover {
 /*First Name Question Section*/
 
 #rectangleFirstNameRight {
-    width:1000px;
+    width:1500px;
     left: 830px;
     top: 142px;
 }
@@ -203,7 +203,7 @@ input[type=text]:hover {
 }
 
 #rectangleZipCodeRight {
-    width:1100px;
+    width:1500px;
     left: 530px;
     top: 230px;
 }
@@ -222,7 +222,7 @@ input[type=text]:hover {
 }
 
 #rectangleHighSchoolRight {
-    width:510px;
+    width:1500px;
     left: 1278px;
     top: 320px;
 }
@@ -241,7 +241,7 @@ input[type=text]:hover {
 }
 
 #rectanglePharmacyRight {
-    width:1000px;
+    width:1500px;
     left: 640px;
     top: 410px;
 }
@@ -260,7 +260,7 @@ input[type=text]:hover {
 }
 
 #rectangleChildrenRight {
-    width:500px;
+    width:1500px;
     left: 1280px;
     top: 500px;
 }
@@ -278,7 +278,7 @@ input[type=text]:hover {
 }
 
 #rectangleBedtimeRight {
-    width:800px;
+    width:1500px;
     left: 835px;
     top: 590px;
 }
@@ -327,7 +327,7 @@ input[type="date"] {
 }
 
 #rectangleBirthdayRight {
-    width:800px;
+    width:1500px;
     left: 920px;
     top: 680px;
 }
@@ -474,6 +474,32 @@ header {
     width: 100%;
     height: 100%;
     background-image: url('./Images/Aquarius-The-Philadelphia-Experiement/Philadelphia-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*Aries Pictures*/
+.header-bg-aries {
+    /*Keeps the image in place*/
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 300%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.paperPageAries {
+    position: absolute;
+    /*accross the whole screen*/
+    width: 100%;
+    height: 100%;
+    background-image: url('./Images/Aries-FEMA/FEMA-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
