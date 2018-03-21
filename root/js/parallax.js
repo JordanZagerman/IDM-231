@@ -3,3 +3,4 @@ $(window).scroll(function() {
   console.log(scrollTop);
   $('.header-bg-virgo').css('top',(scrollTop * 1)+ 'px');
 });
+            
