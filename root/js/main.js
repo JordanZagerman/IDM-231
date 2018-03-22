@@ -6,9 +6,8 @@ function playAudio() {
     audio.play();
 }   
 
-function keyPressed(){
-  audio.play();
-}
+var sample = document.getElementById("sound");
+sample.play();
 
 // Form Section Start
 
