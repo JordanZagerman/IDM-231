@@ -432,7 +432,7 @@ input[type="submit"] {
 
 }
 
-.hiddenButton {
+a {
     background-color: #FFFFFF;
     border: none;
     color: white;
