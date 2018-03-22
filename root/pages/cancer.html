@@ -9,10 +9,28 @@
 </head>
 <body class="paperPageCancer">
 	<script src="../js/page-transition.js"></script>
+
+
+	<audio id="cancerSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/cancer.mp3" type="audio/mpeg">
+	</audio>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("cancerSound");
+	  	sound.play();
+	  </script>
+
+
 	<header>
 		<div class="header-bg-cancer"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">Electric Car Suppression</h1>
 		<p>Electric Cars were originally the most popular cars on the market in the early days. However, with the rise (and lowering price) of oil, the car was phased out. However, in California in the early 1990s the electric car was brought back and forcefully destroyed.</p>

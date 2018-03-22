@@ -8,11 +8,30 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body class="paperPageVirgo">
-	<script src="../js/page-transition.js"></script>
+		<script src="../js/page-transition.js"></script>
+
+	<audio id="virgoSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/virgo.mp3" type="audio/mpeg">
+	</audio>
+
+
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("virgoSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-virgo"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
+
 		<div id="content">
 			<h1  id="typing_text" class="conspiracyHeader">The "Moon Landing"</h1>
 		<p>The U.S. government, desperate to beat the Russians in the space race, faked the lunar landings, with Armstrong and Buzz Aldrin acting out their mission on a secret film set, located either high in the Hollywood Hills or deep within Area 51. With the photos and videos of the Apollo missions only available through NASA, there's no independent verification that the lunar landings were anything but a hoax.</p>

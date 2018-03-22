@@ -10,10 +10,26 @@
 <body class="paperPageGemini">
 	
 	<script src="../js/page-transition.js"></script>
+
+	<audio id="geminiSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/gemini.mp3" type="audio/mpeg">
+	</audio>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("geminiSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-gemini"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">The Frozen Envelope</h1>
 		<p>Commissioner David Stern and the NBA rigged the lottery so the New York Knicks would get the first pick and, with it, select Patrick Ewing.</p>

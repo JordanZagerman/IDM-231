@@ -9,10 +9,26 @@
 </head>
 <body class="paperPageAries">
 	<script src="../js/page-transition.js"></script>
+
+	<audio id="ariesSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/aries.mp3" type="audio/mpeg">
+	</audio>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("ariesSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-aries"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">FEMA Concentration Camps</h1>
 		<p>Mass internment facilities have been built across the continental United States by the Federal Emergency Management Agency (FEMA), in preparation for a future declaration of martial law.</p>

@@ -1,13 +1,14 @@
 // Sound Section
 
-var audio = new Audio("libraries/sounds/typewriter-down.wav");
+// var audio = new Audio("libraries/sounds/typewriter-down.wav");
     
-function playAudio() {
-    audio.play();
-}   
+// function playAudio() {
+//     audio.play();
+// }   
 
-var sample = document.getElementById("sound");
-sample.play();
+// var homeSound = document.getElementById("sound");
+// homeSound.play();
+
 
 // Form Section Start
 

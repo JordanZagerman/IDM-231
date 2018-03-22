@@ -7,12 +7,28 @@
   crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
-<body class="paperPageAcquarius">
+<body class="paperPageAquarius">
 	<script src="../js/page-transition.js"></script>
+
+		<audio id="aquariusSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/aquarius.mp3" type="audio/mpeg">
+	</audio>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("aquariusSound");
+	  	sound.play();
+	  </script>
+
 	<header>
-		<div class="header-bg-acquarius"></div>
+		<div class="header-bg-aquarius"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">The Philadelphia Experiment</h1>
 		<p id="typing_text">It was the summer of 1943, two years into the United States' involvement in World War II, and a bloody sea battle was raging between American destroyers and the famed U-boat submarines of the Nazis. In the Philadelphia Naval Shipyard, a newly commissioned destroyer called the USS Eldridge was being equipped with several large generators as part of a top-secret mission to win the Battle of the Atlantic once and for all.</p>

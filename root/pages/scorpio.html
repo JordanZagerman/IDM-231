@@ -8,11 +8,27 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body class="paperPageScorpio">
+	<audio id="scorpioSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/scorpio.mp3" type="audio/mpeg">
+	</audio>
+
 	<script src="../js/page-transition.js"></script>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("scorpioSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-scorpio"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">The Earth is Flat</h1>
 		<p>Members of the Flat Earth Society know that the Earth is flat. Walking around on the planet's surface, it looks and feels flat, so they know all evidence to the contrary, such as satellite photos of Earth as a sphere, to be fabrications of a "round Earth conspiracy" orchestrated by NASA and other government agencies.</p>

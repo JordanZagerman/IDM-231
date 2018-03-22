@@ -8,11 +8,26 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body class="paperPageTaurus">
+	<audio id="taurusSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/taurus.mp3" type="audio/mpeg">
+	</audio>
 	<script src="../js/page-transition.js"></script>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("taurusSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-taurus"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">New Coke</h1>
 		<p>Coca-Cola halted production of its flagship beverage in 1985 and introduced New Coke in its place as a marketing ploy to combat declining market share and rekindle interest in the original drink.</p>

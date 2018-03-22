@@ -8,14 +8,32 @@
 	<link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body class="paperPageLibra">
+
+	<audio id="libraSound" class="soundEffects" controls>
+		<source src="../libraries/sounds/libra.mp3" type="audio/mpeg">
+	</audio>
+
+
 	<script src="../js/page-transition.js"></script>
+
+		<!-- plays sound -->
+	  <script>
+	  	var sound = document.getElementById("libraSound");
+	  	sound.play();
+	  </script>
+
 	<header>
 		<div class="header-bg-libra"></div>
 	</header>
 	<script src="../js/parallax.js"></script>
+
+	<!-- Return Home -->
+	<a href="../index.html">
+	<button class = "exit">Return To Form</button>
+	</a>
 		<div id="content">
 			<h1 class="conspiracyHeader">Paul Is Dead</h1>
-		<p>Paul McCartney secretly died in 1966. The other Beatles covered up his death, by hiring someone who looked like him, sang like him, and had the same jovial personality. But the guilt eventually got to them and they began hiding clues in their music.</p>
+		<p>Paul McCartney secretly died in 1966. The other Beatles covered up his death, by hiring someone who looked like him, sang like him, and had the same jovial personality. However, the guilt eventually got to them and they began hiding clues in their music.</p>
 		<p>In the song "Taxman," George Harrison gave his "advice for those who die," meaning Paul. The entire Sgt. Pepper's Lonely Hearts Club Band album was awash with Paul-is-dead clues: the Beatles had formed a "new" band featuring a fictional member named Billy Shears.</p>
 		<p>The album contained John Lennon's "A Day in the Life," which had the lyrics "He blew his mind out in a car" and the recorded phrase "Paul is dead, miss him, miss him," which becomes evident only when the song is played backward. Lennon also mumbled, "I buried Paul" at the end of "Strawberry Fields Forever".</p>
 		</div>
